@@ -1,23 +1,66 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Times; color: #eae96f; -webkit-text-stroke: #eae96f}
-    span.s1 {font-kerning: none}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Sito Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;h1&gt;Hello World&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;I'm hosted with GitHub Pages.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Il Mio Sito</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Servizi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Chi Siamo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Benvenuto nel mio sito con Bootstrap</h1>
+            <p class="lead">Un design moderno e responsivo in pochi minuti.</p>
+            <a href="#" class="btn btn-light btn-lg">Scopri di più</a>
+        </div>
+    </header>
+
+    <!-- Sezione con 3 colonne -->
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3>Servizio 1</h3>
+                <p>Descrizione breve del servizio.</p>
+                <a href="#" class="btn btn-primary">Dettagli</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Servizio 2</h3>
+                <p>Descrizione breve del servizio.</p>
+                <a href="#" class="btn btn-primary">Dettagli</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Servizio 3</h3>
+                <p>Descrizione breve del servizio.</p>
+                <a href="#" class="btn btn-primary">Dettagli</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Il Mio Sito | Tutti i diritti riservati</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
