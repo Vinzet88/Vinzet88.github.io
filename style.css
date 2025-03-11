@@ -19,7 +19,7 @@ body {
 /* Hero Section */
 .hero-section {
     position: relative;
-    background: url('images/circuito_hero.png') no-repeat center center;
+    background: url('img/wall2.jpeg') no-repeat center center;
     background-size: cover;
     background-position: center;
     padding: 120px 0;
