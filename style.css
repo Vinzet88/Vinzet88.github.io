@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Sito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra di navigazione -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Servizi</a></li>
+            <li><a href="about.html">Chi Siamo</a></li>
+            <li><a href="contact.html">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <!-- Intestazione -->
+    <header>
+        <h1>Benvenuto nel Mio Sito</h1>
+        <p>Un sito web creato senza framework!</p>
+    </header>
+
+    <!-- Contenuto principale -->
+    <section>
+        <h2>I Nostri Servizi</h2>
+        <p>Offriamo soluzioni professionali per la tua azienda.</p>
+        <a href="services.html" class="button">Scopri di più</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Il Mio Sito - Tutti i diritti riservati</p>
+    </footer>
+
+</body>
+</html>
