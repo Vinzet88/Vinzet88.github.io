@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZBFOX</title>
+    <title>Home - ZBFOX</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #000;
             color: #fff;
-            scroll-behavior: smooth;
         }
         .navbar {
             background-color: #111;
@@ -27,21 +26,16 @@
             background-color: #111;
             color: #fff;
         }
-        .team-section {
-            padding: 50px 0;
-        }
-        .team-card {
-            background-color: #111;
-            border-radius: 10px;
-            padding: 20px;
+        .hero-section {
+            padding: 100px 0;
             text-align: center;
         }
-        .team-card img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 15px;
-            border: 3px solid #1e90ff;
+        .hero-section h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
         }
     </style>
 </head>
@@ -49,59 +43,29 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">ZBFOX</a>
+            <a class="navbar-brand" href="index.html">ZBFOX</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Il Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sicurezza">Sicurezza</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formazione">Formazione</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contatti">Contatti</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Il Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sicurezza.html">Sicurezza</a></li>
+                    <li class="nav-item"><a class="nav-link" href="formazione.html">Formazione</a></li>
+                    <li class="nav-item"><a class="nav-link" href="demo.html">Demo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     
     <!-- Hero Section -->
-    <header class="text-white text-center py-5 bg-primary">
+    <section class="hero-section text-center">
         <div class="container">
             <h1>Benvenuto in ZBFOX</h1>
-            <p class="lead">Esperti in sicurezza informatica e protezione delle infrastrutture aziendali</p>
-        </div>
-    </header>
-    
-    <!-- Team Section -->
-    <section id="team" class="team-section text-center">
-        <div class="container">
-            <h2 class="text-primary">Il Team</h2>
-            <p class="lead">Un team di esperti in cybersecurity pronti a proteggere la tua azienda</p>
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <div class="team-card">
-                        <img src="profile1.jpg" alt="Nome Cognome">
-                        <h4>Nome Cognome</h4>
-                        <p>Ruolo - Specializzazione</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-card">
-                        <img src="profile2.jpg" alt="Nome Cognome">
-                        <h4>Nome Cognome</h4>
-                        <p>Ruolo - Specializzazione</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-card">
-                        <img src="profile3.jpg" alt="Nome Cognome">
-                        <h4>Nome Cognome</h4>
-                        <p>Ruolo - Specializzazione</p>
-                    </div>
-                </div>
-            </div>
+            <p>Proteggiamo la tua azienda con soluzioni avanzate di cybersecurity</p>
+            <a href="sicurezza.html" class="btn btn-primary mt-3">Scopri di più</a>
         </div>
     </section>
     
@@ -111,22 +75,5 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.querySelectorAll('a.nav-link').forEach(anchor => {
-            anchor.addEventListener('click', function(event) {
-                if (this.getAttribute('href').startsWith('#')) {
-                    event.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1);
-                    const targetElement = document.getElementById(targetId);
-                    if (targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop - 50,
-                            behavior: 'smooth'
-                        });
-                    }
-                }
-            });
-        });
-    </script>
 </body>
 </html>
