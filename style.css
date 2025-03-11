@@ -16,7 +16,7 @@ body {
     color: #ffffff !important;
 }
 
-/* Hero Section */
+/* Hero Section (Home) */
 .hero-section {
     position: relative;
     background: url('img/wall2.jpeg') no-repeat center center;
@@ -49,16 +49,15 @@ body {
     text-align: center;
 }
 
-/* Card per il team e corsi */
-.team-card, .course-card, .example-card {
+/* Team Section */
+.team-card {
     background-color: #111;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
 }
-
-.team-card img, .example-card img {
+.team-card img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -66,6 +65,23 @@ body {
     border: 3px solid #1e90ff;
 }
 
+/* Formazione Section */
+.course-card {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sicurezza Section */
+.example-card {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 .example-card img {
     max-width: 100%;
     border-radius: 10px;
