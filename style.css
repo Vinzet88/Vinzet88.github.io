@@ -6,15 +6,29 @@ body {
 }
 
 /* Navbar */
-     .navbar {
-            background-color: #111;
-        }
-        .navbar-brand, .nav-link {
-            color: #1e90ff !important;
-        }
-        .nav-link:hover {
-            color: #ffffff !important;
-        }
+.navbar {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand, .nav-link {
+    color: #1e90ff !important;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-link:hover {
+    color: #ffffff !important;
+}
 
 /* Hero Section (Home) */
 .hero-section {
