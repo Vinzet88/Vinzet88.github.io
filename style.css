@@ -1,0 +1,73 @@
+/* Stile generale */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #111;
+}
+.navbar-brand, .nav-link {
+    color: #1e90ff !important;
+}
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background: url('images/circuito_hero.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.hero-section p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Sezioni generali */
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Card per il team e corsi */
+.team-card, .course-card, .example-card {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-card img, .example-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #1e90ff;
+}
+
+.example-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
