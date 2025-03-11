@@ -7,6 +7,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 140, 255, 0.2);
+            margin-bottom: 30px;
+        }
+        .highlight {
+            color: #008CFF;
+        }
+    </style>
+    
 </head>
 <body>
     <!-- Navbar -->
@@ -31,34 +58,76 @@
     </nav>
     
     <!-- Sicurezza Section -->
-    <section class="section sicurezza-section">
-        <div class="container text-center">
-            <h1 class="text-primary">Sicurezza Informatica</h1>
-            <p class="lead">Scopri come proteggiamo le infrastrutture con soluzioni avanzate</p>
-            
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div class="example-card">
-                        <h4>Prima della Valutazione</h4>
-                        <p>Stato della sicurezza prima della nostra analisi.</p>
-                        <img src="img/before_va.png" alt="Prima della valutazione" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="example-card">
-                        <h4>Dopo la Valutazione</h4>
-                        <p>Miglioramenti implementati dopo la nostra consulenza.</p>
-                        <img src="img/after_va.png" alt="Dopo la valutazione" class="img-fluid">
-                    </div>
+<div class="container py-5">
+        <h1 class="text-center section-title">Sicurezza Informatica</h1>
+        <p class="text-center">Proteggiamo la tua azienda con soluzioni avanzate e su misura.</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="content-box">
+                    <h2 class="highlight">Valutazione delle Vulnerabilità (VA)</h2>
+                    <p>
+                        Ogni infrastruttura ha punti deboli. Con il nostro <strong>Vulnerability Assessment</strong>, 
+                        identifichiamo le vulnerabilità e ti forniamo le soluzioni per proteggere la tua azienda.
+                    </p>
+                    <ul>
+                        <li>Analisi con OpenVAS e Nessus.</li>
+                        <li>Report dettagliati con azioni concrete.</li>
+                        <li>Supporto nell’implementazione delle mitigazioni.</li>
+                    </ul>
                 </div>
             </div>
-            
-            <div class="mt-5">
-                <h3 class="text-primary">Dashboard e Monitoraggio</h3>
-                <p>Visualizza le minacce in tempo reale con il nostro SIEM avanzato.</p>
-                <img src="img/siem_dashboard.png" alt="Esempio di dashboard" class="img-fluid mt-3">
+
+            <div class="col-md-6">
+                <div class="content-box">
+                    <h2 class="highlight">Monitoraggio Proattivo con SIEM</h2>
+                    <p>
+                        Il nostro <strong>SIEM as a Service</strong> basato su <strong>ELK Stack</strong> offre monitoraggio 
+                        continuo, correlazione degli eventi e risposta immediata alle minacce.
+                    </p>
+                    <ul>
+                        <li>Monitoraggio in tempo reale.</li>
+                        <li>Dashboard personalizzate.</li>
+                        <li>Analisi avanzata delle minacce.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="content-box">
+                    <h2 class="highlight">Consulenza e Formazione</h2>
+                    <p>
+                        Una strategia di difesa efficace include la formazione del personale. I nostri corsi personalizzati 
+                        migliorano la consapevolezza e la capacità di risposta alle minacce informatiche.
+                    </p>
+                    <ul>
+                        <li>Simulazioni di attacchi reali.</li>
+                        <li>Approfondimento delle tecniche di difesa.</li>
+                        <li>Riduzione del rischio di phishing e attacchi mirati.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="content-box">
+                    <h2 class="highlight">Threat Intelligence</h2>
+                    <p>
+                        Con il nostro servizio di <strong>Threat Intelligence</strong>, ti forniamo informazioni 
+                        aggiornate sulle minacce emergenti per prevenire attacchi informatici.
+                    </p>
+                    <ul>
+                        <li>Bollettini di sicurezza personalizzati.</li>
+                        <li>Monitoraggio delle nuove minacce.</li>
+                        <li>Strategie di difesa su misura.</li>
+                    </ul>
+                </div>
             </div>
         </div>
+
+        <div class="text-center mt-4">
+            <a href="contatti.html" class="btn btn-primary btn-lg">Contattaci per una consulenza</a>
+        </div>
+    </div>
     </section>
     
     <!-- Footer -->
