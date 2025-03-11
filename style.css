@@ -27,7 +27,14 @@ body {
     color: #1e90ff !important;
     text-decoration: none;
     white-space: nowrap;
+
 }
+
+.navbar-brand img {
+    height: 40px;
+    max-width: 100%;
+}
+
 .nav-link:hover {
     color: #ffffff !important;
 }
