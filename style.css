@@ -35,6 +35,13 @@ body {
     color: #ffffff !important;
 }
 
+.navbar-toggler {
+    border: none; /* Rimuove il bordo di default */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Rende l'icona bianca */
+}
 /* Hero Section */
 .hero-section {
     position: relative;
