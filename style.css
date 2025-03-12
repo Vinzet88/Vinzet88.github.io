@@ -33,13 +33,13 @@ body {
 
 /* Stili per la sezione Contatti */
 .contact-box {
-    background-color: #111; /* Sfondo scuro per contrastare con il nero */
+    background-color: #111; /* Sfondo scuro differente dal nero */
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
     color: #fff;
-    border: 1px solid #1e90ff; /* Bordo blu in stile cyber */
+    border: 1px solid #1e90ff; /* Bordo blu per richiamare il tema cyber */
 }
 
 /* Stili per i box della formazione */
