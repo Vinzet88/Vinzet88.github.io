@@ -5,7 +5,16 @@ body {
     font-family: 'Rajdhani', sans-serif;
 }
 
-
+/* Stili per i box della sezione Team */
+.team-card {
+    background-color: #111; /* Sfondo scuro differente dal nero */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    border: 1px solid #1e90ff; /* Bordo blu per richiamare il tema cyber */
+}
 
 /* Stili per i box della formazione */
 .training-card {
