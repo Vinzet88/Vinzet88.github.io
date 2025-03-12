@@ -5,6 +5,19 @@ body {
     font-family: 'Rajdhani', sans-serif;
 }
 
+
+
+/* Stili per i box della formazione */
+.training-card {
+    background-color: #111; /* Colore scuro, differente dal nero dello sfondo */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    border: 1px solid #1e90ff; /* Bordo blu per richiamare il tema cyber */
+}
+
 /* Navbar */
 .navbar {
     background-color: #000000;
