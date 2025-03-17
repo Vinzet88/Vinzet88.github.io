@@ -87,7 +87,7 @@ body {
     max-width: 100%;
 }
 .navbar-brand, .nav-link {
-    color: #1e90ff !important;
+    color: #ffa200 !important;
     text-decoration: none;
     white-space: nowrap;
 }
