@@ -12,6 +12,17 @@ img {
 }
 
 
+.carousel-caption {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.carousel img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+
 /* Stili per i box della pagina Demo */
 .demo-box {
     background-color: #111; /* Sfondo scuro differente dal nero */
