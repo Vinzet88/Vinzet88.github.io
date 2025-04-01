@@ -21,7 +21,18 @@ img {
     width: 100%;
     height: auto;
     object-fit: contain;
-    max-height: 500px; /* regola l’altezza massima se vuoi evitare immagini troppo grandi */
+    max-height: 500px; /* Adatta l'altezza in base alle tue esigenze */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Imposta un background opaco ma leggero per le didascalie */
+.carousel-caption {
+    max-width: 90%;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* fondo semi-trasparente più soft */
+    border-radius: 8px;
+    padding: 10px;
 }
 
 
