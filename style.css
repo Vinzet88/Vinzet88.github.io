@@ -17,10 +17,13 @@ img {
     font-size: 1rem;
 }
 
-.carousel img {
-    max-height: 500px;
-    object-fit: cover;
+.carousel-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 500px; /* regola l’altezza massima se vuoi evitare immagini troppo grandi */
 }
+
 
 
 /* Stili per i box della pagina Demo */
