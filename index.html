@@ -42,6 +42,41 @@
             <a href="sicurezza.html" class="btn btn-primary mt-3">Scopri di più</a>
         </div>
     </section>
+
+    <div id="twitter-embeds" class="text-center my-5">
+
+        <!-- Embed profilo 1 -->
+        <div class="embed" id="embed1" style="display:none;">
+            <a class="twitter-timeline" href="https://x.com/RedOpsCyber">Tweets by RedOpsCyber</a>
+        </div>
+    
+        <!-- Embed profilo 2 -->
+        <div class="embed" id="embed2" style="display:none;">
+            <a class="twitter-timeline" href="https://x.com/csirt_it">Tweets by CSIRT Italy</a>
+        </div>
+    
+        <!-- Embed profilo 3 -->
+        <div class="embed" id="embed3" style="display:none;">
+            <a class="twitter-timeline" href="https://x.com/infosec202002">Tweets by InfoSec 202002</a>
+        </div>
+    
+        <!-- Embed profilo 4 -->
+        <div class="embed" id="embed4" style="display:none;">
+            <a class="twitter-timeline" href="https://x.com/SecurityWeek">Tweets by SecurityWeek</a>
+        </div>
+    
+    </div>
+    
+    <!-- Script per randomizzare -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script>
+      window.onload = function() {
+        const embeds = document.querySelectorAll('.embed');
+        const randomIndex = Math.floor(Math.random() * embeds.length);
+        embeds[randomIndex].style.display = 'block';
+      };
+    </script>
+    
     
     <!-- Footer -->
     <footer class="footer text-center py-3">
