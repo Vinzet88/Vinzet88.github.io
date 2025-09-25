@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZBFOX - Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vincenzo Zerbo - Cybersecurity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- In head -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-      fetch('navbar.html')
-        .then(res => res.text())
-        .then(data => document.getElementById('navbar-container').innerHTML = data);
-  
-      fetch('footer.html')
-        .then(res => res.text())
-        .then(data => document.getElementById('footer-container').innerHTML = data);
-    });
-  </script>
-  
-  <div id="navbar-container"></div>
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container text-center">
-       <!--      <h1><p>SITO IN AGGIORNAMENTO</p></h1> -->
-<br>
-            <h1>Benvenuto in ZBFOX</h1>
-            <p>Soluzioni avanzate di sicurezza informatica </p>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/vz_logo.png" alt="Logo Vincenzo Zerbo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="team.html">Chi Sono</a></li>
+          <li class="nav-item"><a class="nav-link" href="sicurezza.html">Sicurezza</a></li>
+          <li class="nav-item"><a class="nav-link" href="formazione.html">Formazione</a></li>
+          <li class="nav-item"><a class="nav-link" href="demo.html">Demo</a></li>
+          <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-            <a href="sicurezza.html" class="btn btn-primary mt-3">Scopri di più</a>
-        </div>
-    </section>
+  <!-- Hero -->
+  <section class="hero-section text-center">
+    <div class="container">
+      <h1>Benvenuto in <span style="color:#008CFF;">Vincenzo</span> <span style="color:#FF6600;">Zerbo</span></h1>
+      <p>Soluzioni avanzate di sicurezza informatica e formazione personalizzata.</p>
+      <a href="sicurezza.html" class="btn btn-primary mt-3">Scopri di più</a>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="footer text-center py-3">
+    <p>&copy; 2025 Vincenzo Zerbo. Tutti i diritti riservati.</p>
+  </footer>
 
-    
-    
-    
-    <div id="footer-container"></div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
